@@ -26,6 +26,7 @@
 $leTexte = "Raikette baby fluffy puppy";
 $arrLeTexte = str_split($leTexte);
 $tentatives = 10;
+$lettresTrouvées = count($leTexte);
 $tentUtil = "";
 
 if(isset($_POST['caractr'])) {

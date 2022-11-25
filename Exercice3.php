@@ -24,14 +24,15 @@
 $mot = "";
 $lettre = "";
 $arrMot = [];
+$nbLettre = "";
 
 if(isset($_POST['mot']) && isset($_POST['lettre'])) {
     $mot = $_POST['mot'];
     $arrMot = str_split($_POST['mot']);
     $lettre = $_POST['lettre'];
-    //$nbLettre = substr_count($mot,$lettre); pour le compte d'une chaîne de caractères.
+    // Autre manière (sans créer de fonction), en utilisant la fonction PHP substr_count() qui cherche un caractère dans une chaîne de caractères.
+    //$nbLettre = substr_count($mot,$lettre); //pour le compte d'une chaîne de caractères.
 }
-//echo "Dans le mot: ".$mot." <br> La lettre: ".$lettre." apparait ".$nbLettre." fois.";
 
 function nbLettreMot($lettre,$arrMot) {
   $cptLettre = 0;
