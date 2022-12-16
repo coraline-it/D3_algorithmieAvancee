@@ -1,6 +1,6 @@
 <?php
 
-// Exercice 1 : Plus petite valeur
+// Exercice 1 : Plus petite valeur (15pts)
 
 /*/
  * Écrire l'algorithme qui permet d'obtenir la plus petite valeur d'un tableau
@@ -19,11 +19,11 @@ function plusPetit($listNotes) {
     // On initialise la valeur la plus basse, à l'index 0 du tableau
     $basseValeur = $listNotes[0];
     for( $i = 0 ; $i < count($listNotes) ; $i++ ) {
-            // Si la valeur la plus basse est supérieure à la valeur itérée
-            // Cette valeur devient la plus basse valeur
-            if ($basseValeur > $listNotes[$i]) {
-                $basseValeur = $listNotes[$i];
-            }
+        // Si la valeur la plus basse est supérieure à la valeur itérée
+        // Cette valeur devient la plus basse valeur
+        if ($basseValeur > $listNotes[$i]) {
+            $basseValeur = $listNotes[$i];
+        }
     }
     echo "<br> La valeur la plus basse de la liste est $basseValeur. <br>";
 }
@@ -32,6 +32,7 @@ function plusPetit($listNotes) {
 function plusGrand($listNotes) {
     // On initialise la valeur la plus haute à l'index 0 du tableau
     $hauteValeur = $listNotes[0];
+    // On parcours la liste de notes
     for ( $i = 0 ; $i < count($listNotes) ; $i++ ) {
         // Si la valeur la plus haute est inférieure à la valeur itéréé
         // Cette valeur devient la plus haute valeur
