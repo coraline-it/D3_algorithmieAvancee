@@ -1,5 +1,5 @@
 <?php
-// Exercice 5 : Jeu des bâtonnets
+// Exercice 5 : Jeu des bâtonnets (10pts)
 
 /*/
  * Créer le jeu des bâtonnets

@@ -9,7 +9,7 @@
      * Afficher un nombre de traits correspondant au nombre de lettres
      * Le joueur saisit une lettre et valide
         * Soit la lettre existe, dans ce cas, tous les trais à la bonne position sont remplacés par la lettre trouvée
-git        * Soit cela décompte le nombre de tentatives
+        * Soit cela décompte le nombre de tentatives
      * Le joueur a 10 tentatives
 /*/
 
@@ -41,12 +41,24 @@ foreach ($arrLeTexte as $trait) {
 
 /// On va créer une fonction qui permet de comparer la lettre renseignée par l'utilisateur
 ///
-function isExist($arrLeTexte,$entree) {
+function isExist($arrLeTexte,$entree,$trait) {
   for ($i = 0 ; $i < count($arrLeTexte) ; $i++) {
     if ($arrLeTexte[$i] === $entree) {
-
+      echo $entree;
     }
   }
+}
+
+// Fonction qui va permettre de mettre à jour le nombre de chances
+// de l'utilisateur selon
+function update_chance($mot, $lettre, $chance)
+{
+    foreach ($mot as $key => $value)
+    {
+        if ($key == $lettre)
+            return $chance;
+    }
+    return ($chance - 1);
 }
 
 // Fonction pour afficher le nombre de traits correspondants au nombre de caractères

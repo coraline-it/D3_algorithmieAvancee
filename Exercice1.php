@@ -1,6 +1,6 @@
 <?php
 
-// Exercice 1 : Plus petite valeur (15pts)
+// Exercice 1 : Plus petite valeur (15pts) ok
 
 /*/
  * Écrire l'algorithme qui permet d'obtenir la plus petite valeur d'un tableau

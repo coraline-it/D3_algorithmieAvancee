@@ -1,5 +1,5 @@
 <?php
-// Exercice 8 : Tour d'Hanoï
+// Exercice 8 : Tour d'Hanoï (5pts)
 
 /*/
  * Écrire l'algortihme de résolution de la tour d'Hanoï qui contient 5 disques de taille différente et 3 piques

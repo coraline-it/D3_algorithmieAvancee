@@ -1,5 +1,5 @@
 <?php
-// Exercice 2 : Chiffrement CAESAR (15pts)
+// Exercice 2 : Chiffrement CAESAR (15pts) ok
 
 /*/
  * Chiffrement avec le code Caesar

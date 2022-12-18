@@ -1,5 +1,5 @@
 <?php
-// Exercice 6 : Fichier CSV
+// Exercice 6 : Fichier CSV (15pts)
 
 /*/
  * Créer un fichier CSV contenant

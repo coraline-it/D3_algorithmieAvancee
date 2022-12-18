@@ -1,5 +1,5 @@
 <?php
-// Exercice 3 : Recherche lettre (15pts)
+// Exercice 3 : Recherche lettre (15pts) ok
 
 /*/
  * Demander la saisie d'un mot
